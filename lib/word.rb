@@ -29,4 +29,9 @@ class Word
     end
     found_word
   end
+
+  define_method(:add_definition) do |definition|
+    @definitions.push(defintion)
+  end
+
 end
