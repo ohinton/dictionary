@@ -2,7 +2,7 @@
   <% if @words.length > 0 %>
     <ul class="list-unstyled">
       <% @words.each() do |word| %>
-        <li><a href = '/words/<%= word.id() %>'> <%= word.name() %></a></li>
+        <li><a href = '/words/<%= word.id() %>'> <%= word.word() %></a></li>
       <% end %>
     </ul>
   <% else %>
@@ -10,3 +10,5 @@
       You haven't saved any words yet!
     </p>
   <%end%>
+
+<h3><a href="/words/new">Add Word</a></h3>

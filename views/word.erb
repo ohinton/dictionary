@@ -1,1 +1,10 @@
+<h3><%= @word.word() %></h3>
 
+<p>Definitions:</p>
+<% @word.definitions().each do |definition| %>
+  <ul>
+    <li><%= definition.definition %></li>
+  </ul>
+<% end %>
+
+<a href="/words/<%= @word.id() %>/definitions/new">Add definition</a>

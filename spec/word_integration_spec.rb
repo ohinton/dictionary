@@ -18,7 +18,7 @@ describe('the add a word path', {:type => :feature}) do
     expect(page).to have_content('Add a word:')
     fill_in('word', :with => 'cat')
     click_button('Add')
-    expect(page).to have_content("Thank you! Your word was added!")
+    expect(page).to have_content('Thank you! Your word was added!')
   end
 end
 
@@ -28,11 +28,13 @@ describe('the add a definition path', {:type => :feature}) do
     expect(page).to have_content('Add a word:')
     fill_in('word', :with => 'cat')
     click_button('Add')
-    expect(page).to have_content("Thank you! Your word was added!")
-    click_link('Back')
-    expect(page).to have_content("cat")
-    click_link('Add Definition')
-    expect(page).to have_content('Add a definition:')
+    expect(page).to have_content('Thank you! Your word was added!')
+    click_link('Words')
+    expect(page).to have_content('Your Words')
+    click_link('cat', match: :first)
+    expect(page).to have_content('cat')
+    click_link('Add definition')
+    expect(page).to have_content('Add a definition to cat')
     fill_in('definition', :with => 'a fluffy creature')
     click_button('Add')
     expect(page).to have_content("Thank you! Your definition was added!")
