@@ -7,7 +7,7 @@ h1 {
   font-size: 75px;
 }
 
-h2 {
+h2, h3 {
   font-weight: bolder;
   font-size: 25px;
 }
@@ -28,6 +28,18 @@ li {
   font-size:50px;
 }
 
-#add-word-link {
-  color: green;
+a.green:link {
+  color: #008000;
+}
+
+a.green:active {
+  color: #008000;
+}
+
+a.green:visited {
+  color: #008000;
+}
+
+a.green:hover {
+  color: #008000;
 }
