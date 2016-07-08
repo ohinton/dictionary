@@ -1,0 +1,33 @@
+img {
+  max-height: 100px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 75px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+li {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#no-words-saved-text {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
+}
+
+#word-header {
+  font-weight: bolder;
+  font-size:50px;
+}
+
+#add-word-link {
+  color: green;
+}
