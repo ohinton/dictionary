@@ -69,5 +69,4 @@ describe(Word) do
     end
   end
 
-
 end
