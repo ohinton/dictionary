@@ -1,10 +1,10 @@
-# My Little Dictionary
+# 📖 My Little Dictionary
 
 #### By Olivia Hinton | Date: July 8, 2016
 
 ## Description
 
-"My Little Dictionary" lets you add your own words and definitions in your very own little dictionary!
+"My Little Dictionary" lets you add your own words and definitions to your very own little dictionary!
 
 ## Setup/Installation Requirements
 
